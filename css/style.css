@@ -1,8 +1,66 @@
+
 #board {
   margin-top: 10px;
+
+
+}
+h1 {
+  font-style: oblique;
+  opacity: 0.5;
+  font-family: 'Montez', cursive;
+  margin: auto;
+
+}
+.box {
+  border-width: 5px;
+  border-color: black;
+  border-style: solid;
+  width: 140px;
+  height: 140px;
+  margin: 10px;
+  padding: 50px 50px 70px 50px;
+  font-size: 45px;
+  color: black;
+  opacity: 0.3;
+  vertical-align: middle;
+
+
 }
 
-.box {
-  border: 1px solid black;
-  height: 150px;
+.btn {
+  color: white;
+  background-color: black;
+  opacity: 0.3;
+  width: 200px;
+  vertical-align: middle;
+  text-align: center;
+  position: relative;
+  margin: auto;
+}
+
+
+#page-wrap {
+  width: 800px;
+  margin: 0 auto;
+}
+
+body {
+  background-image: url(../the_light_of_zen.png);
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+
+
+}
+
+.container {
+
+}
+
+
+#backgroundaudio {
+  position: absolute;;
+  left: -180px;
+  bottom: 0px;
+  opacity: 0.1;
 }
